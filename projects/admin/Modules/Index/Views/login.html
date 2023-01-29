@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Administrator Area</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form method="post" action="index.php" autocomplete="off">
+        <h1>Administrator Area</h1>
+        <fieldset>
+            <legend><span>Please enter Username and Password (admin+admin)</span></legend>
+            <label>
+                <input placeholder="ชื่อผู้ใช้" accesskey="e" maxlength="255" type="text" name="login_username">
+            </label>
+            <label>
+                <input autocomplete="off" placeholder="รหัสผ่าน" type="password" name="login_password">
+            </label>
+            <div>
+                <a href="http://projects.kotchasan.com/admin/?action=forgot" class="td" title="Request new password">ลืมรหัสผ่าน ?</a>
+            </div>
+            <button type="submit">เข้าสู่ระบบ</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

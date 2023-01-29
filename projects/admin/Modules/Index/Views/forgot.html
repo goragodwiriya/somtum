@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Request new password</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form method="post" autocomplete="off" action="index">
+        <h1>Request new password</h1>
+        <fieldset>
+            <label>
+                <input placeholder="อีเมล" required maxlength="255" type="email" name="email">
+            </label>
+            <div>New password will be sent to the email address registered. If you do not remember or do not receive emails. Please contact your system administrator (Please check in the Junk Box)</div>
+            <div>
+                <a href="http://projects.kotchasan.com/admin/?action=login" title="Administrator area">เข้าสู่ระบบ ?</a>
+            </div>
+            <button class="button ok large wide" type="submit">ขอรหัสผ่าน</button>
+            <input type="hidden" name="action" value="forgot">
+        </fieldset>
+    </form>
+</body>
+
+</html>

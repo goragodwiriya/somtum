@@ -1,0 +1,11 @@
+<form method="post" action="index.php/Index/Model/Write/submit">
+    <p><label for="title">Title</label></p>
+    <p><input type="text" name="title" id="title" size="100" value="{TITLE}"></p>
+    <p><label for=" keywords">Keywords</label></p>
+    <p><input type="text" name="keywords" id="keywords" size="100" value="{KEYWORDS}"></p>
+    <p><label for=" description">Description</label></p>
+    <p><textarea name="description" id="description" rows="3" cols="100">{DESCRIPTION}</textarea></p>
+    <p><label for="detail">Detail</label></p>
+    <p><textarea name="detail" id="detail" rows="3" cols="100">{DETAIL}</textarea></p>
+    <p><button type="submit">Submit</button><input type="hidden" name="id" value="{ID}"></p>
+</form>
